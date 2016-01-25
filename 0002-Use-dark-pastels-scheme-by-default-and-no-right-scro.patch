@@ -1,0 +1,96 @@
+From c9178ef6d2c1a36c27574c2874e9d996a52ed522 Mon Sep 17 00:00:00 2001
+From: Ikey Doherty <michael.i.doherty@intel.com>
+Date: Mon, 25 Jan 2016 12:47:45 +0000
+Subject: [PATCH 2/2] Use dark-pastels scheme by default, and no right
+ scrollbar
+
+Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
+---
+ terminal/terminal-preferences.c | 40 ++++++++++++++++++++--------------------
+ 1 file changed, 20 insertions(+), 20 deletions(-)
+
+diff --git a/terminal/terminal-preferences.c b/terminal/terminal-preferences.c
+index fb83483..cdacad1 100644
+--- a/terminal/terminal-preferences.c
++++ b/terminal/terminal-preferences.c
+@@ -351,7 +351,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+       g_param_spec_string ("color-foreground",
+                            NULL,
+                            "ColorForeground",
+-                           "#ffffff",
++                           "#dcdcdc",           /*< dark-pastels */
+                            G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+   /**
+@@ -361,7 +361,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+       g_param_spec_string ("color-background",
+                            NULL,
+                            "ColorBackground",
+-                           "#000000",
++                           "#2c2c2c",           /*< dark-pastels */
+                            G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+   /**
+@@ -381,7 +381,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+       g_param_spec_string ("color-cursor",
+                            NULL,
+                            "ColorCursor",
+-                           "#00aa00",
++                           "#dcdcdc",           /*< dark-pastels */
+                            G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+   /**
+@@ -427,25 +427,25 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+   /**
+    * TerminalPreferences:color-palette:
+    **/
+-  preferences_props[PROP_COLOR_PALETTE] =
++  preferences_props[PROP_COLOR_PALETTE] =       /*< dark-pastels */
+       g_param_spec_string ("color-palette",
+                            NULL,
+                            "ColorPalette",
+-                           "#000000;"
+-                           "#aa0000;"
+-                           "#00aa00;"
+-                           "#aa5500;"
+-                           "#0000aa;"
+-                           "#aa00aa;"
+-                           "#00aaaa;"
+-                           "#aaaaaa;"
+-                           "#555555;"
+-                           "#ff5555;"
+-                           "#55ff55;"
+-                           "#ffff55;"
+-                           "#5555ff;"
+-                           "#ff55ff;"
+-                           "#55ffff;"
++                           "#3f3f3f;"
++                           "#705050;"
++                           "#60b48a;"
++                           "#dfaf8f;"
++                           "#9ab8d7;"
++                           "#dc8cc3;"
++                           "#8cd0d3;"
++                           "#dcdcdc;"
++                           "#709080;"
++                           "#dca3a3;"
++                           "#72d5a3;"
++                           "#f0dfaf;"
++                           "#94bff3;"
++                           "#ec93d3;"
++                           "#93e0e3;"
+                            "#ffffff",
+                            G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+@@ -802,7 +802,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+                          NULL,
+                          "ScrollingBar",
+                          TERMINAL_TYPE_SCROLLBAR,
+-                         TERMINAL_SCROLLBAR_RIGHT,
++                         TERMINAL_SCROLLBAR_NONE,
+                          G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+   /**
+-- 
+2.7.0
+
