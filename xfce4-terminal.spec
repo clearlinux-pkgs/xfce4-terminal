@@ -4,7 +4,7 @@
 #
 Name     : xfce4-terminal
 Version  : 0.6.3
-Release  : 5
+Release  : 6
 URL      : http://archive.xfce.org/src/apps/xfce4-terminal/0.6/xfce4-terminal-0.6.3.tar.bz2
 Source0  : http://archive.xfce.org/src/apps/xfce4-terminal/0.6/xfce4-terminal-0.6.3.tar.bz2
 Summary  : No detailed summary available
@@ -23,6 +23,7 @@ BuildRequires : pkgconfig(libxfce4ui-1)
 BuildRequires : pkgconfig(x11)
 BuildRequires : vte-dev
 Patch1: 0001-Set-Droid-Sans-Mono-for-Powerline-10-as-default-font.patch
+Patch2: 0002-Use-dark-pastels-scheme-by-default-and-no-right-scro.patch
 
 %description
 What is it?
@@ -67,6 +68,7 @@ locales components for the xfce4-terminal package.
 %prep
 %setup -q -n xfce4-terminal-0.6.3
 %patch1 -p1
+%patch2 -p1
 
 %build
 %configure --disable-static
