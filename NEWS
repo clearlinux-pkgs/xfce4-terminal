@@ -1,3 +1,194 @@
+0.8.2
+=====
+- Add hidden option MiscSlimTabs to override huge gtk3 tabs style (bug #12796)
+- Temporarily show menubar with F10 even if it's hidden (bug #13231)
+- Add "Run custom command instead of shell" feature (bug #13236)
+- Fix segfault on dragging last window tab to another window
+- Add option for ambigouos-width characters (narrow/wide)
+- Don't show palette when editing palette colors in preferences
+- Fix move dropdown window to monitor with pointer behavior (bug #13266)
+- When un-closing a tab, set it active if it was active when it got closed
+- Set locale as vte encoding in case encoding is not set in prefs
+  (support for running 'LANG=charset xfce4-terminal')
+- Allow to specify text selection background color (bug #13003)
+- Allow to select system-wide monospace font in preferences
+- Fix Alt+n shortcuts when starting with several tabs (bug #13264)
+- Add option to automatically copy selection to the clipboard (bug #12931)
+- Support background image transparency (bug #12944)
+- Fix deprecation warnings
+- Support setting drop-down status bar icon with --icon option (bug #12937)
+- Fix terminal geometry hints for GTK < 3.19.5
+- Translation updates: Arabic, Bulgarian, Catalan, Chinese (China),
+  Chinese (Taiwan), Croatian, Czech, Danish, Deutsch, Dutch, French, Hebrew,
+  Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål,
+  Polish, Portuguese, Portuguese (Brazil), Russian, Slovak, Spanish, Swedish,
+  Ukrainian
+
+0.8.1
+=====
+- Fix Ctrl press recognition for opening URIs with Ctrl+click
+- Set preferences dialog type hint to make it show on top
+- Fix toggling fullscreen mode with F11 for a drop-down window (bugs
+  #12913, #12930)
+- Allow setting of empty shortcut for goto-tab actions (Alt+digit)
+- Resolve window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW
+  message with a timestamp of 0
+- Fix drop-down window visibility check (bug #12917)
+- Resolve some deprecation warnings
+- Fix drop-down window not shown on different workspaces
+- Add MiscUseShiftArrowsToScroll hidden option to allow Shift+arrows
+  one-line scroll (off by default)
+- Allow user-defined color palettes - should be located under
+  ~/.config/xfce4/terminal/colorschemes/ (bug #12908)
+- Set window hints properly; show columns/rows when resizing (bug #12793)
+- Translation updates: Chinese (China), Croatian, English (Australia), French,
+  Kazakh, Lithuanian, Malay, Polish, Spanish, Ukrainian
+
+0.8.0
+=====
+- Move context menu zoom actions to a sub-menu
+- Fix some build-time deprecation warnings
+- Fix hiding of dropdown terminal
+- Fix setting focus to dropdown window (bug #12878)
+- Fix "Always keep window on top" setting that was ignored
+- Show missing action icons in dropdown mode
+- Add rewrap on resize control option to Preferences
+- Add --show/hide-scrollbar command line options (bug #1779)
+- Implement background image support (bug #12845);
+  add BackgroundImageShading setting for background image mode
+- Remove "Scrolling single line" option as the functionality is implemented
+  by vte (bug #12816)
+- Add mouse-wheel binding for zoom: Shift + Ctrl + wheel up/down controlled by
+  a hidden option MiscMouseWheelZoom - ON by default (bug #12869)
+- Do not set DISPLAY variable in non-X11 environments (e.g. Wayland)
+  (bug #12867)
+- Fix memory leak when showing preferences dialog
+- Fix menubar text not visible with some themes
+- Fix vte "resize-window" signal handler (bug #12859)
+- Fix notebook widget transparency seen under Unity
+- Make vte transparency work in Gnome under both X11 and Wayland
+- Show warning and disable Opacity control in Preferences if window manager
+  does not support compositing
+- Fix tab activity indication
+- Fix geometry positioning when a negative offset is used (bug #12833)
+- Quote all file names/URIs drag-and-dropped to the terminal (bug #12836)
+- Fix cursor focus (bug #12807)
+- Translation updates: Bulgarian, Chinese (Taiwan), Croatian, Czech, Dutch,
+  English (Australia), French, German, Hebrew, Japanese, Korean, Lithuanian,
+  Malay, Polish, Portuguese, Portuguese (Brazil), Russian, Slovak, Spanish,
+  Swedish, Thai, Ukrainian
+
+0.6.92
+======
+- Fix geometry setting (default or provided via the command line option)
+  for GTK 3.21.5 (bug #12810)
+- Remove "Update utmp/wtmp records when command is launched" setting since
+  the feature has been removed from vte (bug #12817)
+- Replace deprecated GtkTable with GtkGrid in Preferences
+- Disable Zoom-In/Out actions on reaching zoom limits
+- Do not allow Reset in Read-Only mode
+
+0.6.91
+======
+- Fix solarized light theme colors (bug #12800)
+- Fix huge size of Set Title dialog under wayland
+- Support wayland (resolve crashes and warnings) (bug #12785)
+- Improve handling negative x/y geometry positions (bug #12791)
+- Fix scrollbar/menubar/toolbar incorrectly shown in dropdown mode after
+  window has been minimized/restored (bug #12790)
+- Add ability to save terminal contents to file (bug #6276)
+- Prepare for upcoming vte regex API change
+- Fix Vte-WARNING related to regex
+- Implement Read-Only mode (user input disabled)
+- Fix input focus lost issue after exiting a console app (e.g. nano)
+- Fix cursor not blinking when fg color = bg color (bug #11981)
+- Enable configuration of a new tab working directory: MiscDefaultWorkingDir
+  option. If it is set (non-empty value), new tabs and windows will use the dir
+  specified as their working dir. Otherwise, the behavior remains as is
+  (current dir will be used). (bug #3891)
+- Do not un-close tab that was moved to another window
+- Properly enable/disable F1 shortcut
+- Fix Preferences window hidden in fullscreen mode
+- Do not un-close tab that was detached to create another window
+- Fix incorrect update of go-to-tab menu
+- Add Undo Close Tab functionality: stores closed tabs in chronological order;
+  restores working directory, position in the tabbar, custom title
+- Add Close Other Tabs functionality
+- Make terminal always drop down from the top of the screen (bug #10713)
+- Create Alt+digit shortcuts if they haven't been loaded from config file
+  (bug #10639)
+- Fix dropdown window animation; remove viewport widget
+- Code cleanup: Do not declare or define a reserved identifier
+- Add urgent bell functionality: MiscBellUrgent option (bug #9928)
+- When detaching a tab, make new window respect original geometry
+- Fix possible buffer overwrite issue found by Coverity
+- Keep rows number constant when adding/removing widgets such as toolbar or
+  tabbar (bug #12734)
+- Make tab close button icon a bit smaller
+- Add ability to switch tabs with mouse scroll wheel (request from
+  www.opennet.ru)
+- Fix selection characters override (bug #12735)
+- Fix resize logic with tab (bug #12660)
+- Translation updates: Bulgarian, Catalan, Chinese (China), Chinese (Taiwan),
+  Croatian, Czech, Dutch, English (Australia), German, Hebrew, Japanese, Korean,
+  Portuguese (Brazil), Russian, Serbian, Spanish, Swedish, Turkish, Ukrainian
+
+
+0.6.90
+======
+- Migrate to GTK+3/VTE3 (bugs #11207, #11909, #10602, #11828, #12405, #11119,
+  #11558, #12615, #9702, #10551, #9720, #3599, #7473, #8720, #4331, #10010,
+  #12440, #12589)
+- Fix closing wrong tabs with Ctrl+Shift+W (bug #10691)
+- Make close tab shortcut work for single tab (bug #12490)
+- Add Ctrl+Shift+PgUp/PgDn shortcuts to move tabs left/right (bug #11373)
+- Add support for unlimited scrollback (bug #9875)
+- Fix actions applied to wrong tab after closing another one (bug #11227)
+- Update intltool (bug #12661)
+- Add Ctrl+Shift+S hotkey to set title (bug #10960)
+- Expose MiscTabCloseMiddleClick option to Preferences (bug #10271)
+- Fix terminal window not moved to foreground when using --tab option
+  (bug #11010)
+- Respect Display window borders setting in drop-down mode (bug #10297)
+- Apply opacity setting by chaging background color alpha value (bug #12681)
+- Prevent characters from being hidden by block cursor (bug #9348)
+- Fix in drop-down mode, "100% width" isn't really 100% (bug #12162)
+- Add ShortcutsNoHelpkey option to disable F1 (help) shortcut key and expose
+  it to Preferences (bug #10718)
+- Add support for magnet links (bug #9775)
+- Expose MiscMouseAutohide option to Preferences (bug #7221)
+- Fix terminal crash when starting with --geometry (bug #12721)
+- Add ability to zoom in/out by pressing Ctrl +/-; add --font and --zoom
+  command line options (bug #5605)
+- Expand zoom level (bug #12729)
+- Add hidden option MiscMiddleClickOpensUri to control whether middle click
+  opens URI: if FALSE, Ctrl + left click is used for that; default is FALSE
+  (bugs #10621, #7714, #9166)
+- Fix compilation for vte < 0.44
+- Remove emulation setting and input methods menu as they are not supported
+  by vte
+- Do not allow creating multiple Set Title dialog windows
+- Remove Help button and add icon to Close button in Set Title dialog
+- Add an icon to the search dialog close button
+- Rename UI setting from Transparency to Opacity
+- Update terminal website address in the About dialog
+- Fix crash on moving a tab from one window to another
+- Add tooltip for the Find toolbar button
+- Add setting to allow cursor blinking to Preferences
+- Add setting to change cursor shape to Preferences
+- Fix typo in the preferences dialog
+- Add some new encodings taken from gnome-terminal
+- Fix crash on setting encoding
+- Fix detach tab functionality with GTK>=3.16
+- Fix segfault when right/middle click on tab bar
+- Translation updates: Arabic, Asturian, Bulgarian, Catalan, Chinese (China),
+  Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia),
+  Esperanto, Finnish, French, German, Greek, Hebrew, Hungarian, Icelandic,
+  Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay,
+  Norwegian Bokmål, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian,
+  Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian.
+
+
 0.6.3
 =====
 - Improve URL matching (bug #7959, bug #9800).
