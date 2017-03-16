@@ -1,3 +1,692 @@
+commit 59fc5f49428c628f9be9fbd2798f63f3ea7e338c
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Feb 6 12:05:25 2017 +0300
+
+    Release 0.8.4
+
+commit 5a522e1b87a18e5f4843ac9331c8138a165e41cc
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Fri Feb 3 18:31:11 2017 +0100
+
+    I18n: Update translation fr (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 8b91f1e9ffc735f9f4c46db67844c38afacf19ed
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Feb 3 11:38:24 2017 +0300
+
+    Update README
+    
+    Remove "X windowing system" from the description as Wayland is also supported;
+    update app name to Xfce Terminal.
+
+commit 38e2845f43030ab69e475b34c1df6f08e94ef3f0
+Author: m4sk1n <m4sk1n@o2.pl>
+Date:   Fri Feb 3 00:31:41 2017 +0100
+
+    I18n: Update translation pl (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ed90a10be3fdedbd66f77c767b2b710ab6b620a1
+Author: Allan Nordhøy <epost@anotheragency.no>
+Date:   Fri Feb 3 00:31:41 2017 +0100
+
+    I18n: Update translation nb (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2f9d4a39aa403bbed20b648049e42070ec7281c7
+Author: Allan Nordhøy <epost@anotheragency.no>
+Date:   Thu Feb 2 18:32:03 2017 +0100
+
+    I18n: Update translation nb (96%).
+    
+    323 translated messages, 11 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 50df25a700749e98a63f04035fe41923b496acf4
+Author: Pasi Lallinaho <pasi@shimmerproject.org>
+Date:   Thu Feb 2 18:32:03 2017 +0100
+
+    I18n: Update translation fi (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 6c21ddf56da28d046e3d8bec7162048dcbc7ddac
+Author: Allan Nordhøy <epost@anotheragency.no>
+Date:   Thu Feb 2 06:31:52 2017 +0100
+
+    I18n: Update translation nb (96%).
+    
+    321 translated messages, 13 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 93af116e6d882869263d5212a13c314b581c7924
+Author: abuyop <abuyop@gmail.com>
+Date:   Sat Jan 28 18:31:08 2017 +0100
+
+    I18n: Update translation ms (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 98a0f3b770254da5832dfaf0fc6aa6914c61500d
+Author: Edin Veskovic <edin.veskovic@openmailbox.org>
+Date:   Fri Jan 27 00:31:01 2017 +0100
+
+    I18n: Update translation hr (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit e1dfdb719aba80a957d14e92377243498fd23ed7
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Thu Jan 26 18:31:07 2017 +0100
+
+    I18n: Update translation pt (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2c0ecb5f94d4e0dfb3e47f1fddb02f134967e756
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Jan 26 12:30:58 2017 +0100
+
+    I18n: Update translation ru (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 8a629eb3cfb37d29c39ad33f61cc28d841d29f66
+Author: Manolo Díaz <diaz.manolo@gmail.com>
+Date:   Thu Jan 26 12:30:58 2017 +0100
+
+    I18n: Update translation es (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 306e1f153c0dd0c3280e201cc2b397b4010fa14e
+Author: Jeff Huang <s8321414@gmail.com>
+Date:   Thu Jan 26 06:30:55 2017 +0100
+
+    I18n: Update translation zh_TW (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 07bcdf0559d5aaae1826db930e386f3475c1adbd
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:   Thu Jan 26 00:31:02 2017 +0100
+
+    I18n: Update translation sk (98%).
+    
+    328 translated messages, 6 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 45e9ecb70b0102664bff5783ab1aed728a9281bd
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jan 26 00:31:02 2017 +0100
+
+    I18n: Update translation lt (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9253925d2e81442772513193261bd542a625f38b
+Author: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>
+Date:   Thu Jan 26 00:31:02 2017 +0100
+
+    I18n: Update translation ko (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 5fb3f96267cab6b9de3e7563c1a6ce614b93c938
+Author: Michal Várady <miko.vaji@gmail.com>
+Date:   Thu Jan 26 00:31:02 2017 +0100
+
+    I18n: Update translation cs (100%).
+    
+    334 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9ced28309f3ba917f06e67143dd443475ce9003c
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Jan 25 11:16:48 2017 +0300
+
+    Expose slim tabs setting to Preferences
+
+commit 8daf28381cff1e911412f62f1b3ae435fafb83f5
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Jan 24 18:47:11 2017 +0300
+
+    Use default switch cases
+
+commit 772663daee24c091072427b0544e1537172ec3f3
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Jan 23 16:55:29 2017 +0300
+
+    Print a warning if failed to open background image
+
+commit 18aec3ca5f81e3f259248a80aee52ddd88cc4e94
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jan 23 00:32:17 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit dc4dc9465d778fbcdfae4581810c9e688d6d6878
+Author: Igor <f2404@yandex.ru>
+Date:   Sun Jan 22 18:15:48 2017 +0300
+
+    Further improve image loading by scaling it when reading from file
+
+commit 37a2ded0a8c5d2ba24233126cf5755b532ba539a
+Author: Yarema aka Knedlyk <yupadmin@gmail.com>
+Date:   Sun Jan 22 00:33:17 2017 +0100
+
+    I18n: Update translation uk (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 773c102f04ffee6c7c6c409a43f2c2c35eea0097
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Jan 22 00:33:17 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 24735e7686824098cd32425edad735fc08d1915f
+Author: Igor <f2404@yandex.ru>
+Date:   Sat Jan 21 16:14:11 2017 +0300
+
+    Scale huge background image resolution to 8K
+    
+    This allows to drastically decrease RAM usage when a huge image is selected
+    as max 8K image will be stored in memory.
+
+commit 1ed91f7fcbbd50b1815656126eb1a203f6bbd17d
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Jan 20 18:32:34 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 39febbf293f54eaef7dd8b30e1a143f1c46bfa32
+Author: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>
+Date:   Fri Jan 20 12:30:56 2017 +0100
+
+    I18n: Update translation ko (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 971984e04570e383edc9735e0a3785e5e9485162
+Author: Manolo Díaz <diaz.manolo@gmail.com>
+Date:   Fri Jan 20 12:30:56 2017 +0100
+
+    I18n: Update translation es (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 65a1376f3e2dbe2aa4c16edbb2853af105bea1d2
+Author: Jeff Huang <s8321414@gmail.com>
+Date:   Fri Jan 20 06:30:55 2017 +0100
+
+    I18n: Update translation zh_TW (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit bc30a9ddddfccda45710d91041f5ec3f3cb47b57
+Author: m4sk1n <m4sk1n@o2.pl>
+Date:   Fri Jan 20 00:31:08 2017 +0100
+
+    I18n: Update translation pl (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit fcdec2993ad68fb5cce7ec22bd1695a4137e6926
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Jan 20 00:31:08 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f667080e8592db9153937701b28e37f11876d4c7
+Author: Kiril Kirilov <cybercop_montana@abv.bg>
+Date:   Fri Jan 20 00:31:08 2017 +0100
+
+    I18n: Update translation bg (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 4d50000be7f24d637be70fbea6725f713afa10ad
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Jan 19 15:32:38 2017 +0300
+
+    Do not force show drop-down window on screen size change
+    
+    Also do not force window focus.
+    Fixes https://bugzilla.xfce.org/show_bug.cgi?id=13295
+
+commit bb1a45d6286c08db89f6cea18918bbcd5080c2d6
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Jan 19 12:32:00 2017 +0100
+
+    I18n: Update translation ru (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 460b159bc74b1a6a9d48d1c39ceda91e404c684b
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Thu Jan 19 12:32:00 2017 +0100
+
+    I18n: Update translation kk (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ad9890ffb69e8f592fb5cb65d44a454d9c288f02
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Thu Jan 19 12:32:00 2017 +0100
+
+    I18n: Update translation fr (100%).
+    
+    333 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit b6536b93e2a0363f15c8c350e4ab885895abd54d
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jan 19 12:32:00 2017 +0100
+
+    I18n: Update translation da (99%).
+    
+    330 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 78570a7fafb49f99921a185dd809450d2ec304e1
+Author: m4sk1n <m4sk1n@o2.pl>
+Date:   Wed Jan 18 18:30:58 2017 +0100
+
+    I18n: Update translation pl (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 6d14f98b189b768f0fa8f529c55646992c342d53
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Jan 18 19:48:14 2017 +0300
+
+    Make double click chars setting more compact
+
+commit ac9f4187dc0b27337a118d3feb6ed2a8f9dda407
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Jan 17 18:32:24 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 022ee4a46ce0e1212e23ebc1f23d89fd2080f0d7
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Tue Jan 17 06:30:58 2017 +0100
+
+    I18n: Update translation ja (94%).
+    
+    313 translated messages, 19 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ea38fabcbd75b35b9bd9793a3ccb78dac0e8f2ec
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jan 16 18:32:32 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit abfa9e84211221af85b548fdc69e9a39e4fe8ea9
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jan 16 12:32:50 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ecff1a2d415bef8dc0d5a639b75af72c1f98d860
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Jan 16 12:08:50 2017 +0300
+
+    Update copyright years
+
+commit 8eadb9c144f94022ed93568babba7812be21939f
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Mon Jan 16 06:30:56 2017 +0100
+
+    I18n: Update translation zh_CN (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 34a8a963c2c68d5e0588a653c06336c340b869cf
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jan 16 00:31:49 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 6be6a6875b0d353e6dda53240dac9ec522ecf534
+Author: Yarema aka Knedlyk <yupadmin@gmail.com>
+Date:   Sun Jan 15 18:30:58 2017 +0100
+
+    I18n: Update translation uk (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 3b687bff178d5ec3346f1d5588b52378800f2c74
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Sun Jan 15 18:30:58 2017 +0100
+
+    I18n: Update translation nl (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0244005e3f26273fe8103f05748a832820601330
+Author: Edin Veskovic <edin.veskovic@openmailbox.org>
+Date:   Sun Jan 15 18:30:58 2017 +0100
+
+    I18n: Update translation hr (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 3b40302a3a506342f231275fc635e1ba99e444ee
+Author: Manolo Díaz <diaz.manolo@gmail.com>
+Date:   Sat Jan 14 18:31:42 2017 +0100
+
+    I18n: Update translation es (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2d3dc82125d325f191cf001ffc54a6fff85c6850
+Author: Jeff Huang <s8321414@gmail.com>
+Date:   Sat Jan 14 12:33:11 2017 +0100
+
+    I18n: Update translation zh_TW (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 7e1393dafbcd31942af0e048a245c48772323d14
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:   Sat Jan 14 12:33:11 2017 +0100
+
+    I18n: Update translation sk (98%).
+    
+    328 translated messages, 4 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit a5d7c2e98af7e2da9758a71654b5b885a989b153
+Author: Igor <f2404@yandex.ru>
+Date:   Sat Jan 14 12:33:11 2017 +0100
+
+    I18n: Update translation ru (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 7c0facb4bec652a3e02634d3086eb313348274a6
+Author: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>
+Date:   Sat Jan 14 12:33:11 2017 +0100
+
+    I18n: Update translation ko (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d2f99c67a2961ed5449613704077b8c89f423b77
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Sat Jan 14 12:33:11 2017 +0100
+
+    I18n: Update translation fr (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 8477cbca31c63f9dba7ee0234292662e4d625f89
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat Jan 14 12:33:11 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit e551be1102a20986209c6c0be172b4084bb6c33c
+Author: Michal Várady <miko.vaji@gmail.com>
+Date:   Sat Jan 14 12:33:11 2017 +0100
+
+    I18n: Update translation cs (100%).
+    
+    332 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f9697e94686d8a194642218955b0b8d9f720febd
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Jan 13 19:07:48 2017 +0300
+
+    Add a separate show window borders setting for drop-down mode
+    
+    See https://bugzilla.xfce.org/show_bug.cgi?id=10297
+
+commit 0f988e2caf7edfe17aa7b9e6e33a8eaa31bfe9eb
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Fri Jan 13 06:31:03 2017 +0100
+
+    I18n: Update translation ja (94%).
+    
+    312 translated messages, 19 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 1476271e77ad6df8d21bacffc03eb5c21b9de270
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Jan 12 16:16:36 2017 +0300
+
+    Fix incorrect window positioning when started in fullscreen state
+
+commit 92dfbd6db2f680d88cb8da768a74055a35636535
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Jan 11 16:51:53 2017 +0300
+
+    Resolve incorrect drop-down window geometry issues related to (un)fullscreening
+
+commit 8466eaf1a0f8c0447f728925154a6f0bbf82f33c
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Jan 10 16:01:13 2017 +0300
+
+    Return to git versioning
+
+commit 986ab78c4e92cd18fe0c89631e3b0259eef000c2
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Jan 10 15:57:02 2017 +0300
+
+    Release 0.8.3
+
+commit 68c4e17106e57f1a515b8cb6b9240f57715f0b03
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Jan 10 12:45:49 2017 +0300
+
+    Fix incorrect initial position of a drop-down window under Unity
+
+commit 5cd9871cc9f546a0ffc06887cf7aaff1f37b4256
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Jan 10 12:33:38 2017 +0300
+
+    min-height/width CSS properties not available in old GTK versions
+
+commit 7a01d1806e3e222c3ec546d6026e916a37f11956
+Author: Mingcong Bai <jeffbai@aosc.xyz>
+Date:   Mon Jan 9 12:30:56 2017 +0100
+
+    I18n: Update translation zh_CN (100%).
+    
+    331 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 4528cc08dd0d1c8c9191c3f98abba463fea5a91a
+Author: Igor <f2404@yandex.ru>
+Date:   Sun Jan 8 19:50:31 2017 +0300
+
+    Remove redundant set_window_geometry_hints() call
+    
+    It seemed to confuse Unity WM. Fixes https://bugzilla.xfce.org/show_bug.cgi?id=13280
+
+commit 00d75597944bd1dcd66473956ff2705575c1d6b2
+Author: Igor <f2404@yandex.ru>
+Date:   Sat Jan 7 12:36:56 2017 +0300
+
+    Add Help button to Set Title dialog
+
+commit ee2bdb13912406ea36ef82b05ddace756f95bd38
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Jan 6 16:36:50 2017 +0300
+
+    Even more slim tabs
+
+commit adeb89e0c1e7312d3874c9ee53fbc050a570e013
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Jan 5 19:57:24 2017 +0300
+
+    GtkColorButton show-editor property only available starting with GTK 3.20
+    
+    Fixes https://bugzilla.xfce.org/show_bug.cgi?id=13278
+
+commit 1b56d26e9a779c0edf228ec5498d44197c1dfc82
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jan 5 12:30:56 2017 +0100
+
+    I18n: Update translation lt (100%).
+    
+    331 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 33a72843141f2e478d8305c11e8c1d5a2c01c774
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Jan 4 17:27:57 2017 +0300
+
+    Watch for screen size changes
+    
+    To update drop-down window size or position accordingly.
+    Size change signal is emitted when monitor resolution is changed or another
+    monitor is connected.
+
+commit 67bd26f9ff2b395e2591d4afd6f15215e42ee700
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Jan 4 15:45:12 2017 +0300
+
+    Make slim tabs more slim
+
+commit 2f9653fd89c26282cb689872e69707a9db1e5263
+Author: Theppitak Karoonboonyanan <theppitak@gmail.com>
+Date:   Tue Jan 3 18:31:01 2017 +0100
+
+    I18n: Update translation th (100%).
+    
+    331 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 8cb51b090e1ccbb0295720dff1cb2b073ad70679
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Dec 30 17:53:05 2016 +0300
+
+    Return to git versioning
+
+commit 1ea3b43987861a4c63a0d12a05950f14818c378a
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Dec 30 17:49:30 2016 +0300
+
+    Release 0.8.2
+
 commit 79a3b9dbf14f7cb9240123f04cfa2d9d9bba93d1
 Author: Yannick Le Guen <leguen.yannick@gmail.com>
 Date:   Fri Dec 30 12:30:56 2016 +0100
