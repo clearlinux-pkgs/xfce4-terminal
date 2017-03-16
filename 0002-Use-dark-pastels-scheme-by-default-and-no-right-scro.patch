@@ -1,4 +1,4 @@
-From c9178ef6d2c1a36c27574c2874e9d996a52ed522 Mon Sep 17 00:00:00 2001
+From 48f38831efebb71cb27b9ea041aa1e07628a641a Mon Sep 17 00:00:00 2001
 From: Ikey Doherty <michael.i.doherty@intel.com>
 Date: Mon, 25 Jan 2016 12:47:45 +0000
 Subject: [PATCH 2/2] Use dark-pastels scheme by default, and no right
@@ -10,10 +10,10 @@ Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
  1 file changed, 20 insertions(+), 20 deletions(-)
 
 diff --git a/terminal/terminal-preferences.c b/terminal/terminal-preferences.c
-index fb83483..cdacad1 100644
+index 57f12f7..bd0175f 100644
 --- a/terminal/terminal-preferences.c
 +++ b/terminal/terminal-preferences.c
-@@ -351,7 +351,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+@@ -393,7 +393,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
        g_param_spec_string ("color-foreground",
                             NULL,
                             "ColorForeground",
@@ -22,7 +22,7 @@ index fb83483..cdacad1 100644
                             G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
  
    /**
-@@ -361,7 +361,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+@@ -403,7 +403,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
        g_param_spec_string ("color-background",
                             NULL,
                             "ColorBackground",
@@ -31,7 +31,7 @@ index fb83483..cdacad1 100644
                             G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
  
    /**
-@@ -381,7 +381,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+@@ -423,7 +423,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
        g_param_spec_string ("color-cursor",
                             NULL,
                             "ColorCursor",
@@ -40,7 +40,7 @@ index fb83483..cdacad1 100644
                             G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
  
    /**
-@@ -427,25 +427,25 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+@@ -479,25 +479,25 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
    /**
     * TerminalPreferences:color-palette:
     **/
@@ -82,7 +82,7 @@ index fb83483..cdacad1 100644
                             "#ffffff",
                             G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
  
-@@ -802,7 +802,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
+@@ -964,7 +964,7 @@ terminal_preferences_class_init (TerminalPreferencesClass *klass)
                           NULL,
                           "ScrollingBar",
                           TERMINAL_TYPE_SCROLLBAR,
@@ -92,5 +92,5 @@ index fb83483..cdacad1 100644
  
    /**
 -- 
-2.7.0
+2.12.0
 
