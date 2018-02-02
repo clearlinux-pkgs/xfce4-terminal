@@ -4,7 +4,7 @@
 #
 Name     : xfce4-terminal
 Version  : 0.8.6
-Release  : 12
+Release  : 13
 URL      : http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.6.tar.bz2
 Source0  : http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.6.tar.bz2
 Summary  : No detailed summary available
