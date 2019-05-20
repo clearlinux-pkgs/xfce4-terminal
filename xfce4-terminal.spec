@@ -4,26 +4,25 @@
 #
 Name     : xfce4-terminal
 Version  : 0.8.7.4
-Release  : 17
+Release  : 18
 URL      : http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.7.4.tar.bz2
 Source0  : http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.7.4.tar.bz2
-Summary  : No detailed summary available
+Summary  : A modern terminal emulator primarily for the Xfce desktop environment
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: xfce4-terminal-bin
-Requires: xfce4-terminal-data
-Requires: xfce4-terminal-locales
-Requires: xfce4-terminal-man
+Requires: xfce4-terminal-bin = %{version}-%{release}
+Requires: xfce4-terminal-data = %{version}-%{release}
+Requires: xfce4-terminal-license = %{version}-%{release}
+Requires: xfce4-terminal-locales = %{version}-%{release}
+Requires: xfce4-terminal-man = %{version}-%{release}
 BuildRequires : gtk+-dev
 BuildRequires : intltool
 BuildRequires : libxml2-dev
 BuildRequires : pkgconfig(gio-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
-BuildRequires : pkgconfig(ice)
 BuildRequires : pkgconfig(libxfce4ui-1)
 BuildRequires : pkgconfig(libxfce4ui-2)
 BuildRequires : pkgconfig(vte-2.91)
-BuildRequires : pkgconfig(x11)
 BuildRequires : vte-dev
 
 %description
@@ -36,8 +35,8 @@ full colors, fonts, transparent backgrounds, and more.
 %package bin
 Summary: bin components for the xfce4-terminal package.
 Group: Binaries
-Requires: xfce4-terminal-data
-Requires: xfce4-terminal-man
+Requires: xfce4-terminal-data = %{version}-%{release}
+Requires: xfce4-terminal-license = %{version}-%{release}
 
 %description bin
 bin components for the xfce4-terminal package.
@@ -49,6 +48,14 @@ Group: Data
 
 %description data
 data components for the xfce4-terminal package.
+
+
+%package license
+Summary: license components for the xfce4-terminal package.
+Group: Default
+
+%description license
+license components for the xfce4-terminal package.
 
 
 %package locales
@@ -75,7 +82,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1526871543
+export SOURCE_DATE_EPOCH=1558342288
+export AR=gcc-ar
+export RANLIB=gcc-ranlib
+export NM=gcc-nm
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 %configure --disable-static
 make  %{?_smp_mflags}
 
@@ -87,8 +101,10 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1526871543
+export SOURCE_DATE_EPOCH=1558342288
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-terminal
+cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-terminal/COPYING
 %make_install
 %find_lang xfce4-terminal
 
@@ -114,8 +130,12 @@ rm -rf %{buildroot}
 /usr/share/xfce4/terminal/colorschemes/xterm.theme
 /usr/share/xfce4/terminal/terminal-preferences.ui
 
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/xfce4-terminal/COPYING
+
 %files man
-%defattr(-,root,root,-)
+%defattr(0644,root,root,0755)
 /usr/share/man/man1/xfce4-terminal.1
 
 %files locales -f xfce4-terminal.lang
