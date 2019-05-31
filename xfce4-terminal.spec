@@ -4,7 +4,7 @@
 #
 Name     : xfce4-terminal
 Version  : 0.8.7.4
-Release  : 18
+Release  : 19
 URL      : http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.7.4.tar.bz2
 Source0  : http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.7.4.tar.bz2
 Summary  : A modern terminal emulator primarily for the Xfce desktop environment
