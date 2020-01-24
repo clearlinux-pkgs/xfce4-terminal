@@ -1,3 +1,445 @@
+commit 2dca9cc9e87e4b739b7d91a437091e4bb2964409
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Dec 27 14:26:28 2019 -0500
+
+    Release 0.8.9.1
+
+commit 7b024aa09bd4553269d616835dac6fff19d9fcf1
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Dec 27 14:07:57 2019 -0500
+
+    Revert "Respect the "Working Directory" setting when opening initial window"
+    
+    This change broke the "Open terminal here" functionality in Thunar and
+    other apss.
+    
+    This reverts commit 1ca21ae3fb1dffa6e7e54cc73a2c4a98f954a73f.
+    
+    Fixes bug #16307.
+
+commit efb8c66aaac0170c1345b57b6e01dda608499686
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Dec 26 15:47:22 2019 -0500
+
+    Return to git versioning
+
+commit 1cc8a91439aa918591af6d13ef4f1f1709b4ea31
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Dec 26 15:41:17 2019 -0500
+
+    Release 0.8.9
+
+commit 1ca21ae3fb1dffa6e7e54cc73a2c4a98f954a73f
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Dec 25 17:52:55 2019 -0500
+
+    Respect the "Working Directory" setting when opening initial window
+    
+    The current directory was used instead.
+    
+    Fixes bug #16292
+
+commit adbe2890feb3e0ab776b45132bc22e34db10291f
+Author: Ivica  Kolić <ikoli@yahoo.com>
+Date:   Tue Dec 24 00:33:06 2019 +0100
+
+    I18n: Update translation hr (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 24233fd00d19488897771fc364c1df238da9355c
+Author: Hugo Carvalho <hugokarvalho@hotmail.com>
+Date:   Sat Nov 23 00:33:13 2019 +0100
+
+    I18n: Update translation pt (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d09a336d75f3ceb173c6031ba6dd615863d57b67
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Nov 22 13:25:59 2019 -0500
+
+    Disable "Paste" actions in read-only mode
+
+commit b162c6a957504730654a99f6d0c16da23aa0f768
+Author: Arnold Marko <arnold.marko@gmail.com>
+Date:   Fri Nov 8 00:31:55 2019 +0100
+
+    I18n: Update translation sl (78%).
+    
+    316 translated messages, 86 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 492d7b5db387db15fdca849d229db67fc1a9d4f7
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Tue Nov 5 01:22:02 2019 +0100
+
+    Point session manager to desktop file
+    
+    This means that the session manager will know the (translated) name and
+    icon for the application. This is visible e.g. in xfce4-session-settings
+    in the "Current Session" tab.
+    
+    Fixes bug #16121
+    
+    Signed-off-by: Igor <f2404@yandex.ru>
+
+commit 02b3611addf2e6252cda3a88625002956d4919f9
+Author: Jason Collins <JasonPCollins@protonmail.com>
+Date:   Fri Oct 25 18:33:32 2019 +0200
+
+    I18n: Update translation en_GB (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 346622d6292b3acb92ca1f09dfd03320e6c63b1e
+Author: Πέτρος Σαμαράς <psamaras1@gmail.com>
+Date:   Fri Oct 25 06:32:12 2019 +0200
+
+    I18n: Update translation el (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 44ea84264c8f8dff22630761dcb9a94ffbb3e6bc
+Author: Jose Riha <jose1711@gmail.com>
+Date:   Thu Oct 24 00:31:32 2019 +0200
+
+    I18n: Update translation sk (88%).
+    
+    357 translated messages, 45 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d222a6c1790268b16cdf6855de8d73f210d9c634
+Author: Igor <f2404@yandex.ru>
+Date:   Sat Oct 5 17:36:06 2019 -0400
+
+    Resolve deprecation warning
+    
+    G_TYPE_INSTANCE_GET_PRIVATE has been deprecated since glib 2.58.
+
+commit c06538dbf702e4b2ac9c7993e933a01c0f3ce46e
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Sep 25 13:23:26 2019 -0400
+
+    Allow to use <Alt> shortcuts when menu mnemonics are disabled
+    
+    Like <Alt>h (normally for "Help" menu).
+    
+    Fix bug #15989
+
+commit c54e6edf0b6247bdeddb23f419d4d5a2040d05b8
+Author: Igor <f2404@yandex.ru>
+Date:   Sat Sep 21 20:25:44 2019 -0400
+
+    Fix 'Menubar starts shown when set to hidden in properties'
+    
+    Fixes bug #15979
+
+commit 3d5599de5885019c439f64e9ff0948e71687ed40
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Sat Sep 21 18:31:30 2019 +0200
+
+    I18n: Update translation pt (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7ea2cf560c5b79b53b84a1360e0a161dce60b661
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Sep 17 14:41:42 2019 -0400
+
+    Fix invalid geometry on Wayland
+    
+    Also fixes the issue with increasing the window size when showing or hiding
+    widgets such as tabbar, toolbar, menubar on Wayland.
+
+commit 71bc9086016062faa90485d27d4fe522609d44d7
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Sep 16 16:06:37 2019 -0400
+
+    Fix size increase when the menu is used on Wayland
+    
+    Fixes bug #13938
+
+commit 62a951cafacb1dd6afb76f6affaa5eb093123734
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Sep 16 10:15:15 2019 -0400
+
+    Avoid passing null pointer to g_warning()
+
+commit 0a904b6bb1a09bcf5fd8a2878f9367375d4dbc1b
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Sep 6 12:42:48 2019 -0400
+
+    Replace GLib threading functions with their GDK counterparts
+
+commit 5625bc0e0a33600a3a7233cf7f8f9dd36438358f
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 30 12:33:05 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit fde7a20d6e97b979a53f4c0b57d30a7f34a56174
+Merge: 8edfe579 4708e684
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Aug 22 12:16:03 2019 -0400
+
+    Merge branch 'master' of git://git.xfce.org/apps/xfce4-terminal
+
+commit 8edfe5792a0a1e5b58ea7456136e3cb662ff7d91
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Aug 22 12:13:49 2019 -0400
+
+    Fix setting a font via the command line
+    
+    Which got broken as a result of commit d6ffd7.
+    The two commits together fix bug 15869.
+
+commit 4708e684aa970f5b03fabb1d09af356f15710221
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Wed Aug 21 18:32:29 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 09d7c546bb9b8db891fa4d6955ab3a6554c3ff3e
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Wed Aug 21 12:32:17 2019 +0200
+
+    I18n: Update translation pt (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d6ffd7f638935585340edf8eec104730cbed122d
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Aug 16 14:48:06 2019 -0400
+
+    Revert "Fix negative dimensions GTK warning when running terminal with --tab option"
+    
+    This change causes invalid window geometry when running with multiple tabs
+    (--tab option) and changing the termional font.
+    
+    This reverts commit 13c71c81eb54db919ca23c870a9af1cb92233dca.
+
+commit 90dac2a5e0c426264c8b06d69b05d90e52c62aef
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Thu Aug 15 12:31:21 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 334591ee686b4901b32f4a35084c72bdff996ce6
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Aug 9 14:33:04 2019 -0400
+
+    Properly apply zoom factor when creating new tab
+    
+    Fixes bug #15785
+
+commit 5e954fc6cb755381f5090dff8cc2371e59f7209b
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Aug 5 16:00:56 2019 -0400
+
+    Use vte_terminal_set_font_scale for zooming
+
+commit 4a50c7a9b43514074996e77d718078086eb964a3
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Mon Aug 5 06:31:17 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 12404c6c61c399fa7fc66fd1c50b45a8c4486ff7
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Mon Aug 5 00:31:20 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 93843d95cb715ae39d9a7d82795a656d42854f19
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Sun Aug 4 18:32:06 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b93eb62a2e3784e75f51466646a37dc92e880a5d
+Author: Igor <f2404@yandex.ru>
+Date:   Wed Jul 31 14:43:17 2019 -0400
+
+    Add icons to "Cancel" and "Paste" buttons
+
+commit e480dcd028b0440b3b555700f522c2e540da2fe7
+Author: Igor <f2404@yandex.ru>
+Date:   Thu Jul 25 13:56:34 2019 -0400
+
+    Fix background color changing when changing focus
+    
+    If "Vary the background color for each tab" is enabled.
+    
+    This was happening due to the "style-updated" signal being emitted on each
+    focus in/out event, as well as the actual theme change.
+    Since there's no way to tell whether or not the theme has been changed, the
+    solution is to remember that a tab already has a random background color and
+    prevent it from generating a new one.
+    
+    Fixes bug #15740
+
+commit 18620de588130282aee71a71936c4f494c6e58ab
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Wed Jul 24 12:34:21 2019 +0200
+
+    I18n: Update translation nb (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0ed39d30f63a9199eab68df6555729582b97aba0
+Author: Emanuele Petriglia <transifex@emanuelepetriglia.com>
+Date:   Wed Jul 24 00:32:32 2019 +0200
+
+    I18n: Update translation it (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f7a4d2ab0b3da556ac90469efffccedef3bf51cf
+Author: Igor <f2404@yandex.ru>
+Date:   Sun Jul 21 11:15:42 2019 -0400
+
+    Revert "Save accelerators map on exit"
+    
+    It turned out that saving accelerators map on exit prevents users from
+    disabling the Alt+N shortcuts by setting them to "" in accels.scm. The
+    shortcuts that had been disabled got overridden on the next launch of the
+    terminal.
+    
+    This reverts commit 42e9d6b0b8c8cb67b0446b00184cb811731b2634.
+
+commit 5932d24a175f5e2a36b1dc285d090540e719435d
+Author: Igor <f2404@yandex.ru>
+Date:   Sun Jul 21 09:19:52 2019 -0400
+
+    Allow to unset window urgency hint even if "Visual bell" is disabled
+    
+    Fixes bug #15729
+
+commit 02ec7e5805c064d138830f8d255dc857865ab5f5
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Wed Jul 17 12:34:02 2019 +0200
+
+    I18n: Update translation fi (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3ae9702245b42698366fd33b5f8a5d9fcfcc90d2
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Wed Jul 17 00:34:13 2019 +0200
+
+    I18n: Update translation fi (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 998eabc6c82e403110bbfc3107c40e7783864674
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat Jul 13 18:32:12 2019 +0200
+
+    I18n: Update translation lt (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8f794e293e6bbdbf0b5e1bddb036b5fdee2664bd
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Sat Jul 13 00:31:30 2019 +0200
+
+    I18n: Update translation fr (100%).
+    
+    402 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 72c932498c6b14cd983a8cf65c8c90a43e8e2132
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Jul 8 11:43:48 2019 -0400
+
+    Unmaximize drop-down window when hiding it
+    
+    This seems to help xfwm4; otherwise, it won't be able to unmaximize the window
+    once it's shown again.
+    
+    Fixes bug #15681
+
+commit d893963d3e86de63ad771c322549b21d95890cf1
+Author: Igor <f2404@yandex.ru>
+Date:   Sun Jul 7 17:30:28 2019 -0400
+
+    Allow to use --maximize with drop-down windows
+
+commit defbb5baf4723a5294f6fc04527925c0fa84995c
+Author: Igor <f2404@yandex.ru>
+Date:   Sun Jul 7 17:09:42 2019 -0400
+
+    Search dialog: Make opacity scale unfocusable
+    
+    This prevents the text entry from losing focus when the opacity scale is used.
+
+commit 8c0bb6f0ad67bee1dea2d62b038fb5d05706cf21
+Author: Igor <f2404@yandex.ru>
+Date:   Sun Jul 7 14:28:57 2019 -0400
+
+    Fix closing tab by middle click
+    
+    Including switching to last active tab, allowing to undo close tab, and
+    checking for a running process.
+    
+    Fixes bug #15687
+
+commit dd01cbf9d3552e0b583dd7d63e552db5382861eb
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Jul 2 20:42:23 2019 -0400
+
+    Return to git versioning
+
 commit a1c943969ca7d76e9258e212b42de5d3812d2975
 Author: Igor <f2404@yandex.ru>
 Date:   Tue Jul 2 20:38:47 2019 -0400
